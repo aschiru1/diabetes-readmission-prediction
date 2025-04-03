@@ -19,7 +19,7 @@ Hospital readmissions can be costly and indicate suboptimal patient care. This p
 
 ### **1️⃣ Data Cleaning**  
 - Replaced missing values (`?`) with NaN and handled missing data  
-- Dropped irrelevant columns (`weight`, `payer_code`, `medical_specialty`)  
+- Dropped irrelevant columns (eg:`payer_code`, `medical_specialty`etc)  
 - Converted age ranges into numerical values  
 
 ### **2️⃣ Exploratory Data Analysis (EDA) & Statistical Analysis**  
