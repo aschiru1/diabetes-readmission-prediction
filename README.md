@@ -12,7 +12,8 @@ Hospital readmissions can be costly and indicate suboptimal patient care. This p
 - **Python**  
 - **Pandas, NumPy** (Data Handling)  
 - **Matplotlib, Seaborn** (Exploratory Data Analysis)  
-- **Scikit-learn** (Machine Learning)  
+- **Scikit-learn** (Machine Learning)
+- **Scipy, Statsmodels**(Statistical Analysis) 
 
 ## 🚀 Steps in the Project  
 
@@ -21,19 +22,22 @@ Hospital readmissions can be costly and indicate suboptimal patient care. This p
 - Dropped irrelevant columns (`weight`, `payer_code`, `medical_specialty`)  
 - Converted age ranges into numerical values  
 
-### **2️⃣ Exploratory Data Analysis (EDA)**  
-- Visualized **age distribution, race, and readmission rates**  
-- Identified key **features affecting readmissions**  
+### **2️⃣ Exploratory Data Analysis (EDA) & Statistical Analysis**  
+- **Visualizations**: Distribution of age, race, and readmission rates
+- **Statistical Tests**
+- **T-tests & ANOVA**: Checking for differences in readmission rates across different groups  
+- **Chi-Square Test**: Assessing relationships between categorical variables (e.g., medication usage and readmission)  
+- **Correlation Analysis**: Identifying relationships between numerical features
 
 ### **3️⃣ Machine Learning Modeling**  
 - Implemented models including:  
   - **Logistic Regression**  
   - **Random Forest Classifier**  
-  - **XGBoost**  
+  - **K-Nearest Neighbours**
 - Evaluated models using **accuracy, precision, recall, and F1-score**  
 
 ## 📌 Results & Findings  
-- The best-performing model achieved **X% accuracy** in predicting readmission rates  
+- The best-performing model achieved **89% accuracy** in predicting readmission rates  
 - **Feature Importance Analysis**: Key predictors included **insulin levels, prior hospital visits, and diagnosis codes**  
-
+  Certain medications were associated with **higher or lower readmission rates**
 ## 📁 Repository Structure  
