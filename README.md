@@ -4,7 +4,7 @@
 Hospital readmissions can be costly and indicate suboptimal patient care. This project leverages predictive analytics to analyze factors influencing diabetes-related hospital readmissions and develop models to predict high-risk patients.  
 
 ## 📊 Dataset  
-- Source: UCI Machine Learning Repository - Diabetes 130-US hospitals dataset  
+- Source: Diabetes 130-US hospitals dataset from kaggle 
 - Data Features: Includes patient demographics, medical history, lab results, and hospital visit records  
 - Target Variable: Whether a patient was readmitted within 30 days  
 
